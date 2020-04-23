@@ -1,9 +1,14 @@
-{% if latest_question_list %}
-    <ul>
-    {% for question in latest_question_list %}
-        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No polls are avaible.</p>
-{% endif %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Blog</title>
+</head>
+<body style="color: white">
+<h1 align="center" style="color:red">Haqqımda</h1>
+<h4 style="color:black">Mənim Adım Elay-dır.10 yaşım var.6 yaşımdan proqramlaşdırmanı öyrənmək qərarını almışam.6 yaşımda "Scratch" ilə məşğul olurdum.Halhazırda "Scratch"-də 100-ə yaxın proyektim var.7 yaşımda isə "İT Step"ə daxil olmuşam.Əslində ən az 9 yaşından götürürdülər amma "Scratch" dəki proyektlərimi görüb və bir neçə dənə sual verəndən sonra götürmək qərarını aldılar.2-kursda isə sertifikat verdilər.Halhazırda 4-cü kursdayam 5-ci kursuda bitirəndə diplom verməlidirlər.7 yaşımdan sonra python dilini öyrənməyə başladım.İndi isə 10 yaşımdayam və Django-nu öyrənirəm.</h4>
+<h5 style="color:black" align="center">Pythonda düzəltdiyim proyektləridə bu linklərdən gedib baxa bilərsiniz:</h5>
+<li align="center"><a href="https://github.com/elay-maharramli?tab=repositories">https://github.com/elay-maharramli?tab=repositories</a>
+<li align="center"><a href="https://repl.it/@Elay_Maharramli">https://repl.it/@Elay_Maharramli</a>
+<img src="media/Elay.jpg" >
+</body>
+</html>
